@@ -1,0 +1,98 @@
+/* Navbar Styles */
+.navbar {
+  background: linear-gradient(to right, #afcb11, #2575fc);  
+  padding: 20px 40px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar:hover {
+  background: linear-gradient(to right, #3c11cb, #57fc25); 
+}
+
+.navbar-logo {
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-logo .logo-icon {
+  width: 35px; /* Adjust logo icon size */
+  margin-right: 10px;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  margin: 0 25px;
+  position: relative;
+  color: white;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 12px 18px;
+  border-radius: 8px;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+  background: linear-gradient(to right, #afcb11, #2575fc); 
+  color: #388E3C;
+  transform: scale(1.05); /* Subtle zoom effect */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15); /* Subtle shadow on hover */
+}
+
+.nav-link:active {
+  background: linear-gradient(to right, #afcb11, #2575fc); 
+  color: white;
+}
+
+/* Underline animation */
+.nav-link::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: linear-gradient(to right, #afcb11, #2575fc); 
+  transition: width 0.3s ease-in-out;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .nav-list {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .nav-item {
+    margin: 10px 0;
+  }
+}

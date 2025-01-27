@@ -1,0 +1,108 @@
+/* Attendance.css */
+
+/* Wrapper */
+.attendance-container {
+    font-family: 'Arial, sans-serif';
+    padding: 30px;
+    max-width: 900px;
+    margin: 0 auto;
+    background: linear-gradient(to right, #6a11cb, #fc2594); /* Linear gradient background */
+    border-radius: 10px; /* Optional: rounded corners for a smooth look */
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow */
+}
+
+/* Heading */
+.attendance-container h1 {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.attendance-container h2 {
+    margin-top: 30px;
+    color: #3A9D8C;
+    background: linear-gradient(to right, #210db4, #2534d7);
+}
+
+/* Form */
+.attendance-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.attendance-form input,
+.attendance-form select {
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.attendance-form button {
+    padding: 12px 20px;
+    background-color: #f1d100;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+/* Table */
+.attendance-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.attendance-table th,
+.attendance-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    background: linear-gradient(to right, #210db4, #2534d7);
+}
+
+
+
+.attendance-table th {
+    background: linear-gradient(to right, #210db4, #2534d7);
+    color: #fff;
+}
+
+.attendance-table tr {
+    background-color: #f9f9f9;
+    transition: background-color 0.3s;
+}
+
+.attendance-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Loading and Error Message */
+.loading-message,
+.error-message {
+    text-align: center;
+}
+
+.loading-message {
+    color: #007bff;
+}
+
+.error-message {
+    color: red;
+}
+
+/* Optional: Actions button styling */
+.attendance-actions button {
+    padding: 5px 10px;
+    margin: 5px;
+    background-color: #f1d100;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}

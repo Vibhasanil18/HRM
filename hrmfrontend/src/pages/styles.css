@@ -1,0 +1,66 @@
+body{
+  background: linear-gradient(to right, #d2c4d4, #89ccdb); 
+}
+
+
+/* General Container Styles */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30px;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #400448, #1acaf2); /* Linear gradient background */
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 70px;
+  }
+  
+  /* Table Styles */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  thead {
+    background: linear-gradient(to right, #210db4, #2534d7);
+    color: #fff;
+  }
+  
+  td, th {
+    padding: 12px;
+    border: 1px solid #ddd;
+  }
+  
+  tbody tr {
+    background-color: #f9f9f9;
+    transition: background-color 0.3s ease;
+  }
+  
+  tbody tr:hover {
+    background-color: #e0f7fa;
+  }
+  
+  /* Input and Button Styles */
+  input, select, button {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  button {
+    background-color: #f1d100;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #f1c500;
+  }
+  

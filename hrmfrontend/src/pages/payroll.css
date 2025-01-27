@@ -1,0 +1,92 @@
+/* Container */
+.container-payroll {
+    padding-top: 50px;
+    padding-bottom: 40px;
+    margin-bottom: 80px;
+  }
+  
+  /* Title */
+  .payroll-title {
+    color: #fff;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  /* Description */
+  .payroll-description {
+    color: #ffff;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 40px;
+    font-style: italic;
+  }
+  
+  /* Table Card */
+  .payroll-table-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+  }
+  
+  /* Form Title */
+  .payroll-form-title {
+    color: #fff;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Form */
+  .payroll-form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Input Fields */
+  .payroll-input {
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+ 
+  
+
+  /* Payroll Table Header Styling */
+.payroll-table-card th {
+  background: linear-gradient(to right, #210db4, #2534d7);
+  color: white; /* Make text color white for better readability */
+  text-align: center; /* Optional: for centering the header text */
+}
+  
+  /* Error Message */
+  .payroll-error {
+    color: red;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .payroll-button {
+    padding: 5px 10px !important;
+    margin: 5px !important;
+    background-color: #f1d100 !important;
+    border: none !important;
+    border-radius: 4px !important;
+    cursor: pointer !important;
+    color: #fff !important;
+    font-weight: bold !important;
+  }
+  
+  .payroll-button:hover {
+    background-color: #e1c200 !important;
+  }
+  
+  

@@ -1,0 +1,73 @@
+/* EmployeeManagement.css */
+
+/* Wrapper */
+.employee-management-container {
+    font-family: 'Arial, sans-serif';
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background: linear-gradient(to right, #400448, #1acaf2); 
+    border-radius: 10px; /* Optional: rounded corners for a smooth look */
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow */
+    margin-top: 70px;
+}
+
+/* Heading */
+.employee-management-container h2 {
+    text-align: center;
+    color: #fff;
+}
+
+/* Form */
+.employee-management-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.employee-management-form input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.employee-management-form button {
+    padding: 12px 20px;
+    background-color: #db4b2a95;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Smooth hover effect */
+}
+
+/* Table */
+.employee-management-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: linear-gradient(to right, #190d73, #a0a4c6); /* Linear gradient background */
+}
+
+.employee-management-table th,
+.employee-management-table td {
+    padding: 12px;
+    border: 1px solid #ccc;
+}
+
+.employee-management-table th {
+    background: linear-gradient(to right, #210db4, #2534d7);
+}
+
+.employee-management-actions button {
+    padding: 5px 10px;
+    margin: 5px;
+    background-color: #f1d100;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
